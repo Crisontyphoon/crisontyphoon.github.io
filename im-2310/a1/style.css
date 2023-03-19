@@ -3,8 +3,12 @@
 /*text related stuff*/
 
 @font-face {
-    font-family: 'playright';
-    src: url(fonts/PlayfairDisplay-Regular.ttf);
+    font-family: 'robotoblack';
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: 'robotomedium';
+  src: url(fonts/Roboto-Medium.ttf);
 }
   .section-box {
     max-width: 80%;
@@ -13,7 +17,7 @@
     border-style: groove;
     border-color: #000000;
     border-width: 5px;
-    font-family: 'playright';
+    font-family: 'p';
     padding: 25px;
     padding-bottom: 50px;
     margin: 0 auto;
@@ -21,38 +25,19 @@
     overflow: auto;
   }
 
-  .section-box {
-    max-width: 80%;
-     display: block;
-     background-color:#fffdfd;
-     border-style: groove;
-     border-color: #000000;
-     border-width: 5px;
-     font-family: 'playright';
-     padding: 10px;
-     padding-bottom: 10px;
-     margin: 0 auto;
-     margin-bottom: 10x;
-     overflow: auto;
-}
-
-@font-face {
-    font-family: 'playright';
-    src: url(fonts/PlayfairDisplay-Regular.ttf);
-}
 h1 {
      max-width: fit-content;
      font-size: 3rem;
      margin: 25px auto;
      margin-bottom: 50px;
-     font-family: 'playright';
+     font-family: 'robotoblack';
 }
 h2 {
     max-width: fit-content;
      font-size: 3rem;
      margin: 25px auto;
      margin-bottom: 50px;
-     font-family: 'playright';
+     font-family: 'robotoblack';
 }
 img {
     float: right;
@@ -60,13 +45,13 @@ img {
 }
 /*numbered questions*/
 li {
-    font-family: 'playirght';
+    font-family: 'robotomedium';
     font-size: large;
     color: black;
 }
 /*answers*/
 ol{
-    font-family: 'playright';
+    font-family: 'robotomedium';
     font-size: large;
     color: rgb(66, 65, 65);
 }
