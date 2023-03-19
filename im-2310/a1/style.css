@@ -6,21 +6,6 @@
     font-family: 'playright';
     src: url(fonts/PlayfairDisplay-Regular.ttf);
 }
-
-h1 {
-    max-width: fit-content;
-    font-size: 3rem;
-    margin: 25px auto;
-    margin-bottom: 50px;
-    font-family: 'playright';
-  }
-  h2 {
-    max-width: fit-content;
-    font-size: 3rem;
-    margin: 25px auto;
-    margin-bottom: 50px;
-    font-family: 'playright';
-  }
   .section-box {
     max-width: 80%;
     display: block;
@@ -36,15 +21,60 @@ h1 {
     overflow: auto;
   }
 
+  .section-box {
+    max-width: 80%;
+     display: block;
+     background-color:#fffdfd;
+     border-style: groove;
+     border-color: #000000;
+     border-width: 5px;
+     font-family: 'playright';
+     padding: 10px;
+     padding-bottom: 10px;
+     margin: 0 auto;
+     margin-bottom: 10x;
+     overflow: auto;
+}
 
-  h1 {
-    max-width: fit-content;
-    font-size: 3rem;
-    margin: 25px auto;
-    margin-bottom: 50px;
+@font-face {
     font-family: 'playright';
-  }
+    src: url(fonts/PlayfairDisplay-Regular.ttf);
+}
+h1 {
+     max-width: fit-content;
+     font-size: 3rem;
+     margin: 25px auto;
+     margin-bottom: 50px;
+     font-family: 'playright';
+}
+h2 {
+    max-width: fit-content;
+     font-size: 3rem;
+     margin: 25px auto;
+     margin-bottom: 50px;
+     font-family: 'playright';
+}
+img {
+    float: right;
+    
+}
+/*numbered questions*/
+li {
+    font-family: 'playirght';
+    font-size: large;
+    color: black;
+}
+/*answers*/
+ol{
+    font-family: 'playright';
+    font-size: large;
+    color: rgb(66, 65, 65);
+}
 
+body {
+    background-color: rgb(255, 255, 255);
+}
+</style>
 
 
 /*links*/
