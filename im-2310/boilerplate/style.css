@@ -1,0 +1,82 @@
+
+
+body {
+    background-color: rgb(209, 177, 116);
+}
+
+
+
+
+
+
+
+.container 
+{  display: grid;
+    grid-template-columns: 0.3fr 0.3fr 2.6fr 1.5fr 0.5fr 0.3fr 3.2fr 1.4fr 0.1fr 0.2fr 0.3fr 3.1fr 2.3fr 0.3fr 0.4fr;
+    grid-template-rows: 0.2fr 0.4fr 2.6fr 1.10fr 0.3fr 0.1fr 0.2fr 2.1fr 3.3fr 0.2fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 1000px;
+  }
+  
+  .Three { 
+    grid-area: 7 / 2 / 10 / 6; 
+    background-color: blue;
+    width: 1000;
+}
+  
+  .TextThree { 
+    grid-area: 8 / 4 / 9 / 5; 
+    background-color: yellow;
+}
+  
+
+
+  .Two { 
+    grid-area: 2 / 2 / 6 / 9; 
+    background-color: red;
+}
+  
+  .TextTwo { 
+    grid-area: 4 / 7 / 5 / 8; 
+    background-color: yellow;
+}
+  
+
+
+  .Four { 
+    grid-area: 7 / 7 / 10 / 11;
+    background-color: greenyellow;
+ }
+ .TextFour { 
+    grid-area: 8 / 8 / 9 / 9; 
+    background-color: yellow;
+}
+  
+
+  
+  .one { 
+    grid-area: 2 / 10 / 6 / 15; 
+    background-color: pink;
+}
+  
+  .TextOne { 
+    grid-area: 4 / 13 / 5 / 14; 
+    background-color: lightblue;
+}
+  
+
+
+
+  .five { 
+    grid-area: 7 / 12 / 10 / 15; 
+    background-color: orange;
+}
+  
+.Text-Five { 
+    grid-area: 8 / 13 / 9 / 14; 
+    background-color: yellow;
+}
+  
