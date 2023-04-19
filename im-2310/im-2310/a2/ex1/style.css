@@ -1,0 +1,137 @@
+
+/*SUMMER TIME COLOUR PALETTE
+This expermiment uses the aesthetic style of a manga to display graidents and other colours, that is related to Summer.
+*/
+
+
+/*Background colour
+ - This colour was chosen mostly due to how it doesnt really take the attention away from the main focus which are the main 5 panels.
+*/
+body {
+    background-color: rgb(231, 236, 190);
+}
+
+
+/* Text 
+- This text font is the closest to fonts used for manga, which this experiment is based on. 
+- The text uses sans-serif, which makes the text appear hand written. 
+- The text is also alligned to the middle with 'text-align' to continue to replicate the manga style.
+- The bolding and the font size is done just so it can fit inside the grid
+*/
+@font-face {
+    font-family: 'ComicNeue';
+    src: url(fonts/ComicNeue-Bold.ttf);
+}
+
+div {
+    font-family: 'ComicNeue';
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+
+}
+
+
+/*
+The grid
+- The grid is the best way used to create the manga style
+- Each grid contains a solid black border, to replicate the manga style
+- The colours that was chosen for the graidents are colours that invoke the feeling of the summer, or intuitively give off the idea of the summer
+- The coding for the text class ( titled "TextOne.. TextTwo.. etc) also have allignement codes so the text gets centered
+*/
+.container 
+{  display: grid;
+    grid-template-columns: 0.3fr 0.3fr 2.6fr 1.5fr 0.5fr 0.3fr 3.2fr 1.4fr 0.1fr 0.2fr 0.3fr 3.1fr 2.3fr 0.3fr 0.4fr;
+    grid-template-rows: 0.2fr 0.4fr 2.6fr 1.10fr 0.3fr 0.1fr 0.2fr 2.1fr 3.3fr 0.2fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    width: 100%;
+    height: 900px;
+  }
+  
+  .Three { 
+    grid-area: 7 / 2 / 10 / 6; 
+    background: linear-gradient(#9f60ff, #00bdff,#e2b958,#b0e78f );
+    width: 1000;
+    border: 3px solid black
+}
+  
+  .TextThree { 
+    grid-area: 8 / 4 / 9 / 5; 
+    background-color: rgba(155, 79, 195, 0.553);
+    align-items: center; /*center vertically*/
+    justify-content: center; /*center horizontally*/
+    display: flex; /*displays the  above code(?)*/
+    border: 3px solid black
+}
+
+  .Two { 
+    grid-area: 2 / 2 / 6 / 9; 
+    border: 3px solid black;
+    background: linear-gradient(#00c0ff,#fafa6e);
+}
+  
+  .TextTwo { 
+    grid-area: 4 / 7 / 5 / 8; 
+    background-color: rgba(255, 255, 0, 0.488);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border: 3px solid black
+}
+  
+
+
+  .Four { 
+    grid-area: 7 / 7 / 10 / 11;
+    background:  linear-gradient( #b0e78f,#eec871,#34f635);
+    border: 3px solid black
+ }
+
+ .TextFour { 
+    grid-area: 8 / 8 / 9 / 9; 
+    background-color: rgba(174, 216, 171, 0.325);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border: 3px solid black
+}
+  
+
+
+  .one { 
+    grid-area: 2 / 10 / 6 / 15; 
+    background:linear-gradient(#00c0ff,#00fc9c );
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border: 3px solid black
+}
+  
+  .TextOne { 
+    grid-area: 4 / 13 / 5 / 14; 
+    background-color: lightblue;
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border: 3px solid black
+}
+  
+
+  .five { 
+    grid-area: 7 / 12 / 10 / 15; 
+    background: linear-gradient(#a400f0, #cf7937, #562387);
+    border: 3px solid black
+    
+}
+  
+.Text-Five { 
+    grid-area: 8 / 13 / 9 / 14; 
+    background-color: rgb(154, 58, 161);
+    align-items: center;
+    justify-content: center;
+    display: flex; 
+    border: 3px solid black
+}
+  

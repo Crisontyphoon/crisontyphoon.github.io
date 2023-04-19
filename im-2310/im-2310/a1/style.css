@@ -1,0 +1,87 @@
+
+
+/*text related stuff*/
+
+@font-face {
+    font-family: 'robotoblack';
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: 'robotomedium';
+  src: url(fonts/Roboto-Medium.ttf);
+}
+  .section-box {
+    max-width: 80%;
+    display: block;
+    background-color:#5a5a5a;
+    border-style: groove;
+    border-color: #000000;
+    border-width: 5px;
+    font-family: 'p';
+    padding: 25px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    overflow: auto;
+  }
+
+h1 {
+     max-width: fit-content;
+     font-size: 3rem;
+     margin: 25px auto;
+     margin-bottom: 50px;
+     font-family: 'robotoblack';
+}
+h2 {
+    max-width: fit-content;
+     font-size: 3rem;
+     margin: 25px auto;
+     margin-bottom: 50px;
+     font-family: 'robotoblack';
+}
+img {
+    float: right;
+    
+}
+/*numbered questions*/
+li {
+    font-family: 'robotomedium';
+    font-size: large;
+    color: black;
+}
+/*answers*/
+ol{
+    font-family: 'robotomedium';
+    font-size: large;
+    color: rgb(66, 65, 65);
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+</style>
+
+
+/*links*/
+/*unvisted*/
+a:link {
+    color:blue
+}
+/*hover*/
+a:hover {
+    color:red
+}
+/*when link is clicked*/
+a:active {
+    color:blue
+}
+/*link is visited*/
+a:visited {
+    color:lightblue
+}
+.flex-container-example {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
