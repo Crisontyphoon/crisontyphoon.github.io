@@ -167,12 +167,20 @@ li ul{
 
 /*transition making list be seen when on hover and know which one is being pressed when activated*/
 /* this is so the user can tell when they click it it works and if the word is a button*/
+
+/* the colour grey is chosen since most due to how it is the middle colour between black and white. 
+The lighter and darker grey is chosen, to reflect on how other sites use the hover function, 
+where the lighter version allows the user to know it is an selectable button, while the darker
+colour allows the user to know that they have interacted with the button.*/
+
 #list:hover{
-background-color: rgb(90, 90, 90);
+background-color:rgb(155, 155, 155);
 }
 
+
+
 #list:active{
-  background-color: blue;
+  background-color: rgb(90, 90, 90);
 }
 
 
