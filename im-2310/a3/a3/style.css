@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/**Herta's colour scheme, also so the eyes dont hurt so much looking at a white screen**/
+#body{
+background-color: #a59dd3;
+}
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    scale: 0.5;
+  
+  
+}
+
+/**This contians the GIF. DONT LINK IT TO ANYTHING ELSE**/
+#herta {
+    position: relative;
+    width: 100%;
+    height: auto;
+    scale: 0.5;
+    background-position: 50%;
+}
+
+
+/**Animation**/
+.animation {
+    animation: hertaSpin  3s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+  }
+
+
+  /**fake spin**/
+ @keyframes hertaSpin {
+    0% {
+      transform: translateX(0%)
+    }
+    25% { 
+      transform: translateX(-100%) scale(0.5)
+    }
+    50% {
+    transform:  translateX(0%) scale(0.3)
+    }
+    75%{
+    transform:  translateX(100%) scale(0.5)
+    }
+    100% {
+      transform: translateX(0%)
+    }
+  }
+ 
+
+
+
+#button {
+    background-color: #574f84;
+    border-radius: 16px;
+    color: white;
+    padding: 16px 32px;
+    font-size: 1em;
+    overflow: hidden;
+    box-shadow: 6px 7px 40px -4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.1s ease-in-out, scale 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+}
+
+#button:hover {
+    background-color: #2d2463;
+}
+
+#button:active {
+    scale: 0.95;
+}
+
+/**main text**/
+h1 {
+    text-align: center;
+    font-size: 3;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/**text for everything else**/
+h2 {
+  text-align: center;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  scale: auto;
+}
+
+:root{
+  --col01: rgb(0,0,0);
+  --col02: rgb(70, 70, 70);
+  --col03: rgb(183, 183, 183);
+  --col04: rgb(255, 255, 255);
+  --border: solid 20px var(--col02);
+}
+
+
+/* we can use the ::backdrop pseudo selecter on our dialog element to change the overlay colour */
+#modalDialog::backdrop{
+  background-color: rgba(173, 255, 165, 0.418);
+}
+
+
+#showModal {
+  background-color: #574f84;
+  border-radius: 16px;
+  color: white;
+  padding: 16px 32px;
+  font-size: 1em;
+  overflow: hidden;
+  box-shadow: 6px 7px 40px -4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.1s ease-in-out, scale 0.1s cubic-bezier(0.075, 0.82, 0.165, 1);
+  position: relative;
+}

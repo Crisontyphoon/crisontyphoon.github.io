@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+ <head>
+
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">  
+
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+ </head>
+
+ <body id="body">
+       <h1>Spin the Herta <h1>
+            
+            
+            <!--- Counter-->
+            <div>
+                  Herta has spun <span id="counter">0</span> times~
+            </div>
+            <br>
+
+            <!--- image :D-->
+        <div id="container">
+              <img id="herta" src="images/herta.gif" class="animation">
+        </div> 
+
+        <!--- Le Button-->
+        <button id="button">
+            Press for Kuru~
+          </button>
+
+          <h2>
+            <dialog id="modalDialog">
+                  For this browser interaction, I wanted to create something that creates feedback when it is interacted with. This feedback is aimed to be a playful type of feedback. 
+                  <br>
+                  <br>
+                  First of all, is to define what is Feedback and Playfulness. The way I define them is that Feedback refers to the idea that when a user interacts with a browser, they expect some sort of interaction that is responded back at them when they interact with objects or features of the browser. While Playfulness is referred to an informal atmosphere, where entertainment or joy is created from said interaction or the feeling that a child would have when receiving a new toy. 
+                  <br>
+                  <br>
+                  To tackle this, I first looked into what would be considered playful. Firstly I looked at websites where it would be considered playful. One main one I looked at is ‘https://onemillionpats.com/ ‘ where you can “pet” a dog, and ‘https://izuna.ninja/index.html’  another site that contains the same concept as the first site. They create the idea of playfulness creating a mundane action and glorifying it, whereas the dog version contains a counter and a goal saying “Let's Get 1 Million Pats!”. This allows the user to enjoy the simple feature, while also in a sense gamifying it. 
+                  <br>
+                  <br>
+                  So to find my ideas of playfulness I looked into anime and gaming communities, specifically emotes and gifs. While looking at them, a video came up titled “Kuru Kuru Kururin – Raphiiel” in Youtube. The video itself is just a gif of a character named Herta from the game Honkai Star Rail. In the video, she is “singing” to the tune of the ending theme of Super Mario:World. The gif created by artist Seseren, of Herta spinning, while the audio in the background is quite enjoyable to watch, with commenters saying that it is relaxing and needs a 1-hour version of it. The character of Herta is also quite popular with the Honkai Star Rail community, where her phrase “kururing”, which is well known and enjoyed by the playerbase.
+                  <br>
+                  <br>
+                  From that video, an idea of an interaction can be created, where it’s possible to include the same gif, while also making her spin in the browser when interacting. The idea is to create a button, which created feedback of Herta spinning.
+                  Firstly to design the main colour scheme, which would be variations of purple and violet, since it fits the colour scheme of Herta. Designing the button is a simple task, where it just needs to be centred on the screen, so when a user enters the website, that’s the first thing they see. While also adding a :hover and :active, in the CSS to show that the button can be pressed and acknowledged when it’s pressed. While also creating an audible sound, which is associated with her.
+                  <br>
+                  <br>
+                  Designing the “spin” that Herta does uses CSS animation, by making the image move to the left and right of the screen, also scaling it up and down, creating the illusion that Herta is spinning around. It allows the user to have fun pressing onto the button, as it would cause her to spin.  The addition of the counter, is more so of a fun addition, while the repetition is to allow the user to freely enjoy interacting with the browser. 
+                  
+                 <button id="closeModal">Close</button>
+               </dialog> 
+           
+               <button id="showModal"> Open for text</button>
+           
+           </h2>
+       
+ </body>
+
+
+
+</html>
